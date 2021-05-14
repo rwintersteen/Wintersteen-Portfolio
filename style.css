@@ -1,0 +1,64 @@
+body {
+    background-image:url(https://wallpaperaccess.com/full/452626.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    font-weight: 200px;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+p {
+    font-weight: 75px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 75px;
+    
+}
+
+/*Navigation*/
+
+#navButtons a {
+    position: relative;
+    flex-wrap: wrap;
+    transition: 0.3s; 
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none;
+    font-size: 20px;
+    color: black; 
+    background-color: white;
+    border-radius: 25px;
+}
+  
+#navButtons a:hover {
+    background-color: lightgray;
+    opacity: 0.75;
+}
+  
+nav {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 1000px;
+}
+/*Portfolio Sections*/
+
+.My-Story p {
+    font-weight: 75px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: left;
+}
