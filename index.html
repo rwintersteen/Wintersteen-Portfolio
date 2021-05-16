@@ -5,26 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='style.css'></link>
-    <!--Working title-->
+<!--Working title-->
     <title>Rachael Wintersteen's Professional Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>Rachael Wintersteen</header>
-        <p>A student currently enrolled in the University of Oregon's Coding Bootcamp. <br> In the midst of pursuing my goal of becoming a full stack developer.</p>
+        <p>A student currently enrolled in the University of Oregon's Coding Bootcamp. <br> In the midst of pursuing my goal of becoming a full stack developer.<br>Come take a quick peek at my journey!</p>
 <!--Navigation Links-->
         <nav id='navButtons'>
                 <a href='#My-Story'>My Story</a>
                 <a href='#The-Goods'>The Goods</a>
                 <a href='#Contact-Me'>Contact Me</a>
-                <a href='#Resume'>Resume</a>
-            </ul>
         </nav>
-<!--Sections of the portfolio-->
-    <section class='My-Story'>
-        <h1>My Story</h1>
-        <p>Born and raised in the Pacific Northwest, I graduated from Portland State University in 2014 with my BS in General Sciences.</p>
-    </section>
-
+<!--Pictures of my life-->
+    <div>
+        <img src='./assets/Me and Lukas in the Pool-1.jpg' class='images' alt='Myself and my 6 month old son enjoying the pool in Arizona'>
+        <img src='./assets/Icie playing in the snow-1.jpg' class='images' alt='My dog Icie playing wildly in the snow!'>
+        <img src='./assets/Lukas and Bryan-disc golf-1.jpg' class='images'alt='My son and my main squeeze Bryan playing some disc golf together'>
+    </div>
+<!--Brief Overview of Me-->
+    <main class='sections'>
+        <section id='My-Story'>
+            <h1>My Story</h1>
+                <p>Born and raised in the Pacific Northwest, my hobbies are quintessentially Cascadian. I love being outdoors, but I find true joy when I'm birdwatching. 
+                    Bowling is my first sport, however I have gained a real passion for the game of disc golf. And there's nothing quite like relaxing to reruns of Star Trek: TNG to an ice cold beer.<br>
+                    I graduated from Portland State University in 2014 with my BS in General Sciences while working full time as a dental assistant.
+                    Over the last decade, my career focus has been solely in dentistry and making my way through orthodontic assisting. 
+                    Whether contributing my skills chairside with the dentist and orthodontist, or helping the front office with insurance and endless phone calls, I have filled just about every role in the dental clinic with my current credentials. <br>
+                    I needed a fresh start and web development was my siren's call.</p>
+        </section>
+<!--Showing off my Coding skills-->
+        <section id='The-Goods'>
+            <h1>The Goods</h1>
+                <p>I signed up for the University of Oregon's Coding Bootcamp in April 2021. Over the course so far, we've been honing our skills in HTML, CSS, and Javascript, with more to learn. <br> Click on any of my projects to get a closer look at the work I have completed thus far in bootcamp!<br><br><br>
+                <a class='Horiseon' href='https://rwintersteen.github.io/Horiseon-Webpage/'><img src='./assets/Horiseon Webpage.png' alt="A mockup webpage that demonstrated my understanding of HTML and CSS semantics"></a><br><br><br>
+                <a class='Cheatsheet' href='https://rwintersteen.github.io/CSS-Snippet-Cheatsheet/'><img src='./assets/CSS Snippet Cheatsheet.png' alt="My CSS Snippet Cheatsheet, for when you can't quite remember bits of code to decorate your CSS"></a>
+                </p>
+        </section>
+<!--How to get in contact-->
+        <section id='Contact-Me'>
+            <h1>Contact Me</h1>
+                <p><a class='email' href='mailto:rachaelwintersteen@gmail.com'>Shoot me an email.</a> <br><br>         Let's collaborate and make some magic happen!</p>
+        </section>
+    </main>
+<!--Footer of bird images-->
+<footer>
+    <img src="./assets/Anna's Hummingbird.JPG" class='bird-Images' alt="An angry Anna's Hummingbird sitting on a small flower branch">
+    <img src="./assets/Pacific Wren.JPG" class='bird-Images' alt="A small Pacific Wren atop a thin twig">
+    <img src="./assets/Tree Swallow.JPG" class='bird-Images' alt="A curious Tree Swallow outside its birdhouse">
+    <p>Shameless plug of my partner, Bryan's, pictures of birds</p>
+</footer>
 </body>
 </html>
